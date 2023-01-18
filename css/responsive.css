@@ -2,10 +2,13 @@
   header {
     padding: 12px 2.5%;
     transition: 0.1s;
+    border-bottom: 1px solid transparent;
+    backdrop-filter: blur(15px);
   }
   header.sticky {
     padding: 10px 2.5%;
     transition: 0.1s;
+    backdrop-filter: blur(15px);
   }
   section {
     padding: 110px 3% 60px;
@@ -43,6 +46,10 @@
     height: auto;
     max-width: 100%;
   }
+  .about-text iframe {
+    width: 100%;
+    height: 500px;
+  }
   .contact {
     grid-template-columns: 1fr;
   }
@@ -79,4 +86,25 @@
   .navlist.open {
     top: 100%;
   }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 390px) {
+  #portfolio {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-content .row {
+    width: 90%;
+  }
+  .portfolio-content .layer p {
+    color: var(--second-color);
+    font-size: 0.8rem;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 320px) {
 }
