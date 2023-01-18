@@ -1,10 +1,11 @@
 :root {
-  --bg-color: #fff;
+  --bg-color: #fbfbfd;
   --second-bg-color: #202020;
+  --3-bg-color: #f0f0f0;
   --text-color: #2a2a2a;
   --second-color: rgb(245, 245, 245);
   --main-color: #ff4d05;
-  --pink-color: rgb(207, 84, 105);
+  --pink-color: #cf5469;
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
@@ -15,5 +16,24 @@
 button {
   outline: none;
   border: none;
+  cursor: pointer;
+}
+a i.bx.bx-up-arrow-alt {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+select,
+option {
+  outline: none !important;
+  border: none !important;
   cursor: pointer;
 }
