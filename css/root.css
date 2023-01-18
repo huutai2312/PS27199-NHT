@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #fff;
+  --second-bg-color: #202020;
+  --text-color: #2a2a2a;
+  --second-color: rgb(245, 245, 245);
+  --main-color: #ff4d05;
+  --pink-color: rgb(207, 84, 105);
+  --big-font: 5rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+::selection {
+  background-color: rgba(78, 78, 78, 0.654);
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
