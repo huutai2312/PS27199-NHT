@@ -91,8 +91,8 @@
 }
 @media (max-width: 480px) {
 }
-@media (max-width: 390px) {
-  #portfolio {
+@media (max-width: 385px) {
+  /* #portfolio {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,13 @@
     color: var(--second-color);
     font-size: 0.8rem;
     line-height: 1.8;
+  } */
+  body {
+    zoom: 90%;
   }
 }
 @media (max-width: 320px) {
+  body {
+    zoom: 90%;
+  }
 }

@@ -10,8 +10,24 @@
   --h2-font: 3rem;
   --p-font: 1.1rem;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f86285;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
 ::selection {
   background-color: rgba(78, 78, 78, 0.654);
+}
+a {
+  color: var(--text-color);
 }
 button {
   outline: none;

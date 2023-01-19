@@ -30,13 +30,17 @@
       </a>
 
       <ul class="navlist">
-        <li><a class="border-from-left" href="#home">Home</a></li>
-        <li><a class="border-from-left" href="#about">iPhone</a></li>
-        <li><a class="border-from-left" href="#san-pham">Products</a></li>
-        <li><a class="border-from-left" href="#portfolio">Services</a></li>
-        <li><a class="border-from-left" href="#contact">Feedback</a></li>
+        <li><a class="nav-home" href="#home">Home</a></li>
         <li>
-          <a href=""><i class="bx bx-moon bx-tada"></i> Light/Dark Mode</a>
+          <a class="nav-iphone-new" href="#product"
+            >iPhone <span class="ip-new">new!</span></a
+          >
+        </li>
+        <li><a class="nav-product" href="#">All Products</a></li>
+        <li><a class="nav-service" href="#portfolio">Services</a></li>
+        <li><a class="nav-feedback" href="#contact">Feedback</a></li>
+        <li>
+          <a href=""><i class="bx bx-moon"></i></a>
         </li>
       </ul>
 
@@ -52,7 +56,7 @@
         </div>
         <h1>MacBook Pro</h1>
         <div class="button">
-          <a href="#san-pham" class="btn"
+          <a href="#product" class="btn"
             >Learn More<i
               class="bx bx-right-arrow-alt bx-fade-right"
               style="color: #ffffff"
@@ -62,33 +66,15 @@
       </div>
     </section>
 
-    <!----about section design--->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="img/hero_endframe__dtzvajyextyu_large.jpg" />
-      </div>
-
-      <div class="about-text">
-        <h2>iPhone 14 Pro</h2>
-        <p>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/oaWqA_CJVFw?controls=0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </p>
-        <!-- <a href="#" class="btn more-about">More About</a> -->
       </div>
     </section>
 
     <!----service section design--->
-    <section class="services" id="san-pham">
+    <section class="services" id="product">
       <div class="main-text">
-        <h2><span>Which iPhone is right for you?</span></h2>
+        <h2>
+          <span>Which <h>iPhone</h> is right for you?</span>
+        </h2>
       </div>
 
       <div class="services-content">
@@ -125,6 +111,24 @@
       <div class="btn-r-more">
         <button class="xem-them">Compare all iPhone models</button>
       </div>
+      <section>
+        <div class="main-text">
+          <h2>Mac mini</h2>
+        </div>
+        <div class="services-content">
+          <div class="box mac-mini">
+            <div class="s-icons">
+              <img
+                src="img/mac-mini.jpg"
+                class="img-mac-mini"
+                style="width: 100%; border-radius: 20px; margin: 0"
+              />
+            </div>
+            <p>Supercharged by M2 and M2 Pro.</p>
+            <a href="#" class="read">Learn more</a>
+          </div>
+        </div>
+      </section>
     </section>
 
     <!----portfolio section design--->
@@ -352,6 +356,7 @@
       </div>
       <div class="last-text">
         <p>Copyright © 2023 by PS27199 - N.H.Tai | All Rights Reserved.</p>
+        <p>v1.3.0</p>
       </div>
       <div class="read2">
         <a href="">Privacy Policy</a> | <a href="">Terms of Use</a> |
@@ -368,4 +373,5 @@
     <!---custom js link--->
     <script type="text/javascript" src="js/script.js"></script>
   </body>
+
 </html>
