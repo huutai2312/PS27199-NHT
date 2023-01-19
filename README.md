@@ -17,3 +17,9 @@
 - Change Vietnamese to English <br>
 - Fix section about <br>
 - Fix responsive <br>
+
+<h2>v1.3.0</h2>
+- Fix Portfolio <br>
+- Fix form feedback <br>
+- Fix section about <br>
+- Fix responsive <br>
