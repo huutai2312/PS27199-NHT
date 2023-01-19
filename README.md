@@ -24,4 +24,5 @@
 - Fix section about <br>
 - Fix responsive <br>
 - Add product <br>
-- Fix css
+- Fix css <br>
+- Custom scrollbar
