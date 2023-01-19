@@ -24,3 +24,4 @@
 - Fix section about <br>
 - Fix responsive <br>
 - Add product
+- Fix css
