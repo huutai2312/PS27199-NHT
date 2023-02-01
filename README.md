@@ -26,3 +26,9 @@
 - Add product <br>
 - Fix css <br>
 - Custom scrollbar <br>
+
+<h2>v1.4.0</h2>
+- Fix Navbar <br>
+- Add product <br>
+- Fix css <br>
+- Add pages <br>
