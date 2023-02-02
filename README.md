@@ -32,3 +32,7 @@
 - Add product <br>
 - Fix css <br>
 - Add pages <br>
+
+<h2>v1.5.0</h2>
+- Fix responsive <br>
+-
