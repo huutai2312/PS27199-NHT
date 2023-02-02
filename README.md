@@ -1,6 +1,24 @@
 # PS27199-NHT
 
-<p>PS27199 - Nguyễn Hữu Tài</p>
+<h1>PS27199 - Nguyễn Hữu Tài</h1>
+
+<h2>v1.5.0</h2>
+- Fix responsive <br>
+
+<h2>v1.4.0</h2>
+- Fix Navbar <br>
+- Add product <br>
+- Fix css <br>
+- Add pages <br>
+
+<h2>v1.3.0</h2>
+- Fix Portfolio <br>
+- Fix form feedback <br>
+- Fix section about <br>
+- Fix responsive <br>
+- Add product <br>
+- Fix css <br>
+- Custom scrollbar <br>
 
 <h2>v1.2.3</h2>
 - Demo Web (https://ps27199-nht.netlify.app/)<br>
@@ -17,22 +35,3 @@
 - Change Vietnamese to English <br>
 - Fix section about <br>
 - Fix responsive <br>
-
-<h2>v1.3.0</h2>
-- Fix Portfolio <br>
-- Fix form feedback <br>
-- Fix section about <br>
-- Fix responsive <br>
-- Add product <br>
-- Fix css <br>
-- Custom scrollbar <br>
-
-<h2>v1.4.0</h2>
-- Fix Navbar <br>
-- Add product <br>
-- Fix css <br>
-- Add pages <br>
-
-<h2>v1.5.0</h2>
-- Fix responsive <br>
--
